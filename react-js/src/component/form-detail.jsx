@@ -1,11 +1,18 @@
 import React, { useState } from "react";
+import { FaSquareFull } from "react-icons/fa";
 
-const FormDetail = () => {
+import "./form-detail.css";
+
+const FormDetail = (props) => {
   return (
-    <div>
-      <label className=" flex flex-col">
-        First Name
-        <input type="text" placeholder={"place holder..."} />
+    <div className="form-detail">
+      <p>
+        {props.name}
+        {props.asterisk}
+      </p>
+      <label className="input-container flex items-center justify-center">
+        <FaSquareFull className="input-icon" />
+        <input className="input" type="text" placeholder={props.name} />
       </label>
     </div>
   );

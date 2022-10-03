@@ -1,0 +1,17 @@
+.button__grey {
+  font-size: 25px;
+  color: white;
+  background-color: #3d3d3d;
+  padding: 5px 40px;
+}
+
+.button__transparent {
+  font-size: 25px;
+  border: 1px solid #3d3d3d;
+  background-color: transparent;
+  padding: 5px 40px;
+}
+
+.button__hidden {
+  visibility: hidden;
+}

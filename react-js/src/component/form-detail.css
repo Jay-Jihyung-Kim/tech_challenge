@@ -1,0 +1,28 @@
+.input-container {
+  background-color: lightgrey;
+}
+
+.input {
+  background-color: #d6d6d6;
+  font-size: 25px;
+  width: 100%;
+  padding: 5px;
+}
+
+.input::placeholder {
+  color: grey;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input-icon {
+  color: #3d3d3d;
+  margin: 8px;
+  font-size: 30px;
+}
+
+.form-detail > p {
+  color: grey;
+}
