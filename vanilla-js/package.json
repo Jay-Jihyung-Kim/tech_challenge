@@ -12,6 +12,7 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
+    "@bryt-designs/create-bd-frontend-challenge": "file:..",
     "jquery": "^3.6.0"
   }
 }
