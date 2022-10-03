@@ -15,3 +15,7 @@
 .button__hidden {
   visibility: hidden;
 }
+
+.button__none {
+  display: none;
+}

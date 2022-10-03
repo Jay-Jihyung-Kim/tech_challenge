@@ -20,10 +20,28 @@ export const ButtonLeft = (props) => {
 export const ButtonRight = (props) => {
   return (
     <button
-      className="button__grey flex items-center rounded-md"
+      className={
+        "button__grey flex items-center rounded-md " +
+        (props.currentPage === 3 ? "button__hidden" : "")
+      }
       onClick={() => props.handleButton("next")}
+      disabled={props.disabled}
     >
       {props.text} <AiOutlineArrowRight />
+    </button>
+  );
+};
+
+export const ButtonSubmit = (props) => {
+  return (
+    <button
+      className={
+        "button__grey flex items-center rounded-md button__none " +
+        (props.currentPage === 3 ? "" : "hidden")
+      }
+      onClick={() => props.handleSubmit("next")}
+    >
+      Register!
     </button>
   );
 };

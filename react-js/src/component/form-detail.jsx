@@ -12,7 +12,14 @@ const FormDetail = (props) => {
       </p>
       <label className="input-container flex items-center justify-center">
         <FaSquareFull className="input-icon" />
-        <input className="input" type="text" placeholder={props.name} />
+        <input
+          className="input"
+          type="text"
+          placeholder={props.name}
+          value={props.value}
+          onChange={props.handleChange}
+          id={props.id}
+        />
       </label>
     </div>
   );
