@@ -1,0 +1,6 @@
+.page-number {
+  border: 2px solid black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
